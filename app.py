@@ -88,7 +88,7 @@ Coordenadas: {relatorio['Coordenadas']}
 Temperatura do Mar: {relatorio['Temperatura do Mar']}
 Nível do Mar: {relatorio['Nível do Mar']}""")
         print("-" * 30)
-        return menu()
+    return menu()
 
 
 #função para deletar relatórios
@@ -153,5 +153,7 @@ def menu():
     elif opcaoMenu == "5":
         print("\nPrograma encerrado.")
         quit()
+    else:
+        print("\nOpção inválida.")
 
 menu()
